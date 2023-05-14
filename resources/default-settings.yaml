@@ -1,9 +1,9 @@
 info:
-  relay_url: wss://nostream.your-domain.com
-  name: nostream.your-domain.com
+  relay_url: wss://nostr-fort-bitcoin.bitpetro.c2.altakahun.io/
+  name: nostr-fort-bitcoin.bitpetro.c2.altakahun.io/
   description: A nostr relay written in Typescript.
-  pubkey: replace-with-your-pubkey-in-hex
-  contact: mailto:operator@your-domain.com
+  pubkey: npub10eg6ml4ksrg4ufa9c0ywrw87xrgnjlmjs79lkkukttfem9qm4hfqarp0pg
+  contact: mailto:info@yeetum.com
 payments:
   enabled: false
   processor: zebedee
@@ -25,7 +25,7 @@ paymentsProcessors:
       - "3.225.112.64"
       - "::ffff:3.225.112.64"
   lnbits:
-    baseURL: https://lnbits.your-domain.com/
+    baseURL: https://9dde27ea76.d.voltageapp.io/wallet?usr=0d2afe0dc5624347bdcb433877a67cc9&wal=5b7cf2d38cc34f33965c1b69f10182b0
     callbackBaseURL: https://nostream.your-domain.com/callbacks/lnbits
   lnurl:
     invoiceURL: https://getalby.com/lnurlp/your-username
